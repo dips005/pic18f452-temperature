@@ -7,6 +7,8 @@
 [v _UART_Init UART_Init `(v  1 e 1 0 ]
 "27
 [v _UART_SendChar UART_SendChar `(v  1 e 1 0 ]
+"32
+[v _UART_SendString UART_SendString `(v  1 e 1 0 ]
 "7 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\__lldiv.c
 [v ___lldiv __lldiv `(ul  1 e 4 0 ]
 "4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fleq.c
@@ -50,7 +52,13 @@
 {
 "29
 } 0
-"27 C:\Users\Dipanjan Saha\Desktop\git\pic18f452-temperature\temperature-lm35.X/uart.h
+"32 C:\Users\Dipanjan Saha\Desktop\git\pic18f452-temperature\temperature-lm35.X/uart.h
+[v _UART_SendString UART_SendString `(v  1 e 1 0 ]
+{
+[v UART_SendString@str str `*.32uc  1 p 2 0 ]
+"40
+} 0
+"27
 [v _UART_SendChar UART_SendChar `(v  1 e 1 0 ]
 {
 [v UART_SendChar@data data `uc  1 a 1 wreg ]

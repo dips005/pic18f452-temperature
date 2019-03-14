@@ -21,8 +21,8 @@ int main(int argc, char** argv) {
     {
         UART_SendChar('A');
         __delay_ms(100);
-        //UART_SendString("Dips");
-        //__delay_ms(1000);
+        UART_SendString("Dips");
+        __delay_ms(1000);
     }
     
     return (EXIT_SUCCESS);

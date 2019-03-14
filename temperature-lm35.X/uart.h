@@ -31,7 +31,7 @@ void UART_SendChar(unsigned char data)
 
 void UART_SendString(char *str)
 {  
-    while(*str!='s')
+    while(*str!='\0')
     {
     TXREG=*str;
     __delay_ms(100);

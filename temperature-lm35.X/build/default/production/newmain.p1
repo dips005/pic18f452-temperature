@@ -528,7 +528,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;./uart.h: 33: {
 [f ]
 "34
-[; ;./uart.h: 34:     while(*str!='s')
+[; ;./uart.h: 34:     while(*str!='\0')
 [e $U 243  ]
 [e :U 244 ]
 "35
@@ -548,8 +548,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 }
 [e :U 243 ]
 "34
-[; ;./uart.h: 34:     while(*str!='s')
-[e $ != -> *U _str `ui -> 115 `ui 244  ]
+[; ;./uart.h: 34:     while(*str!='\0')
+[e $ != -> *U _str `ui -> 0 `ui 244  ]
 [e :U 245 ]
 "40
 [; ;./uart.h: 40: }
@@ -608,6 +608,12 @@ Version 4.0 HI-TECH Software Intermediate Code
 "23
 [; ;newmain.c: 23:         _delay((unsigned long)((100)*(8000000UL/4000.0)));
 [e ( __delay (1 -> * -> -> 100 `i `d / -> -> 8000000 `ul `d .4000.0 `ul ]
+"24
+[; ;newmain.c: 24:         UART_SendString("Dips");
+[e ( _UART_SendString (1 :s 1C ]
+"25
+[; ;newmain.c: 25:         _delay((unsigned long)((1000)*(8000000UL/4000.0)));
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 8000000 `ul `d .4000.0 `ul ]
 "26
 [; ;newmain.c: 26:     }
 }
@@ -622,3 +628,4 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;newmain.c: 29: }
 [e :UE 248 ]
 }
+[a 1C 68 105 112 115 0 ]

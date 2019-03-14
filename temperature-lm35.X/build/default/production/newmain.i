@@ -4020,7 +4020,7 @@ void UART_SendChar(unsigned char data)
 
 void UART_SendString(char *str)
 {
-    while(*str!='s')
+    while(*str!='\0')
     {
     TXREG=*str;
     _delay((unsigned long)((100)*(8000000UL/4000.0)));
@@ -4049,8 +4049,8 @@ int main(int argc, char** argv) {
     {
         UART_SendChar('A');
         _delay((unsigned long)((100)*(8000000UL/4000.0)));
-
-
+        UART_SendString("Dips");
+        _delay((unsigned long)((1000)*(8000000UL/4000.0)));
     }
 
     return (0);
