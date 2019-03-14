@@ -3,18 +3,32 @@
 [d edition pro ]
 [d chip 18F452 ]
 [d frameptr 4065 ]
-"15 C:\Users\Dipanjan Saha\Desktop\git\pic18f452-temperature\temperature-lm35.X/uart.h
+"12 C:\Users\Dipanjan Saha\Desktop\git\pic18f452-temperature\temperature-lm35.X/adc.h
+[v _ADC_Init ADC_Init `(v  1 e 1 0 ]
+"28
+[v _ADC_Read ADC_Read `(ui  1 e 2 0 ]
+"18 C:\Users\Dipanjan Saha\Desktop\git\pic18f452-temperature\temperature-lm35.X/uart.h
 [v _UART_Init UART_Init `(v  1 e 1 0 ]
-"27
+"30
 [v _UART_SendChar UART_SendChar `(v  1 e 1 0 ]
-"32
+"41
 [v _UART_SendString UART_SendString `(v  1 e 1 0 ]
+"54
+[v _UART_SendIntToString UART_SendIntToString `(v  1 e 1 0 ]
 "7 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\__lldiv.c
 [v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fabsf.c
+[v _fabsf fabsf `(f  1 e 4 0 ]
 "4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fleq.c
 [v ___fleq __fleq `(b  1 e 0 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
 "62 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\float.c
 [v ___ftpack __ftpack `(f  1 e 4 0 ]
+"43 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
 "86 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\ftadd.c
 [v ___ftadd __ftadd `(f  1 e 4 0 ]
 "54 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\ftdiv.c
@@ -23,6 +37,12 @@
 [v ___ftmul __ftmul `(f  1 e 4 0 ]
 "19 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\ftsub.c
 [v ___ftsub __ftsub `(f  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\nanf.c
+[v _nanf nanf `(f  1 e 4 0 ]
+"52 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\powf.c
+[v _powf powf `JJ(f  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\scalbnf.c
+[v _scalbnf scalbnf `(f  1 e 4 0 ]
 "10 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcadd.c
 [v ___fladd __fladd `(d  1 e 4 0 ]
 "245
@@ -31,14 +51,28 @@
 [v ___fldiv __fldiv `(d  1 e 4 0 ]
 "8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
 [v ___flmul __flmul `(d  1 e 4 0 ]
+"24 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sqrtf.c
+[v _sqrtf sqrtf `(f  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
 "15 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul32.c
 [v ___lmul __lmul `(ul  1 e 4 0 ]
 "91 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul64.c
 [v ___omul __omul `(uo  1 e 8 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
 "18 C:\Users\Dipanjan Saha\Desktop\git\pic18f452-temperature\temperature-lm35.X\newmain.c
+[v _my_low_priority_isr_routine my_low_priority_isr_routine `IIL(v  1 e 1 0 ]
+"21
+[v _my_high_priority_isr_routine my_high_priority_isr_routine `IIH(v  1 e 1 0 ]
+"24
 [v _main main `(i  1 e 2 0 ]
-"1648 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f452.h
+"1210 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f452.h
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1648
 [v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"2110
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
 "2712
 [v _RCSTA RCSTA `VEuc  1 e 1 @4011 ]
 "2936
@@ -47,41 +81,343 @@
 [v _TXREG TXREG `VEuc  1 e 1 @4013 ]
 "3228
 [v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
-"18 C:\Users\Dipanjan Saha\Desktop\git\pic18f452-temperature\temperature-lm35.X\newmain.c
+"3591
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"3659
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+"3807
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"3814
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+"3 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\errno.c
+[v _errno errno `i  1 e 2 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\powf.c
+[v _bp bp `C[2]f  1 s 8 bp ]
+"20
+[v _dp_h dp_h `C[2]f  1 s 8 dp_h ]
+"21
+[v _dp_l dp_l `C[2]f  1 s 8 dp_l ]
+"24 C:\Users\Dipanjan Saha\Desktop\git\pic18f452-temperature\temperature-lm35.X\newmain.c
 [v _main main `(i  1 e 2 0 ]
 {
-"29
+"26
+[v main@val val `ui  1 a 2 64 ]
+[v main@val1 val1 `ui  1 a 2 62 ]
+"48
 } 0
-"32 C:\Users\Dipanjan Saha\Desktop\git\pic18f452-temperature\temperature-lm35.X/uart.h
+"41 C:\Users\Dipanjan Saha\Desktop\git\pic18f452-temperature\temperature-lm35.X/uart.h
 [v _UART_SendString UART_SendString `(v  1 e 1 0 ]
 {
-[v UART_SendString@str str `*.32uc  1 p 2 0 ]
-"40
+[v UART_SendString@str str `*.32uc  1 p 2 1 ]
+"53
 } 0
-"27
+"54
+[v _UART_SendIntToString UART_SendIntToString `(v  1 e 1 0 ]
+{
+"73
+[v UART_SendIntToString@i i `uc  1 a 1 59 ]
+"62
+[v UART_SendIntToString@data1 data1 `i  1 a 2 47 ]
+"56
+[v UART_SendIntToString@cnt cnt `uc  1 a 1 58 ]
+"67
+[v UART_SendIntToString@h_val h_val `uc  1 a 1 53 ]
+"54
+[v UART_SendIntToString@data data `i  1 p 2 40 ]
+[v UART_SendIntToString@numberOfDigits numberOfDigits `uc  1 p 1 42 ]
+"80
+} 0
+"52 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\powf.c
+[v _powf powf `JJ(f  1 e 4 0 ]
+{
+"153
+[v powf@s2 s2 `f  1 a 4 140 ]
+[v powf@s_h s_h `f  1 a 4 108 ]
+[v powf@t_h t_h `f  1 a 4 104 ]
+[v powf@t_l t_l `f  1 a 4 52 ]
+[v powf@s_l s_l `f  1 a 4 48 ]
+[u S538 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
+"59
+[v powf@__xc8_float_word __xc8_float_word `S538  1 a 4 184 ]
+"54
+[v powf@z z `f  1 a 4 180 ]
+"55
+[v powf@t t `f  1 a 4 176 ]
+"56
+[v powf@j j `l  1 a 4 172 ]
+"57
+[v powf@ix ix `l  1 a 4 168 ]
+"56
+[v powf@k k `l  1 a 4 160 ]
+"54
+[v powf@p_h p_h `f  1 a 4 156 ]
+"57
+[v powf@iy iy `l  1 a 4 152 ]
+[v powf@is is `l  1 a 4 144 ]
+"55
+[v powf@sn sn `f  1 a 4 136 ]
+"57
+[v powf@hy hy `l  1 a 4 132 ]
+"55
+[v powf@t1 t1 `f  1 a 4 128 ]
+"56
+[v powf@n n `l  1 a 4 124 ]
+"55
+[v powf@v v `f  1 a 4 120 ]
+[v powf@u u `f  1 a 4 116 ]
+"54
+[v powf@ax ax `f  1 a 4 112 ]
+[v powf@p_l p_l `f  1 a 4 100 ]
+"57
+[v powf@hx hx `l  1 a 4 96 ]
+"55
+[v powf@s s `f  1 a 4 92 ]
+"56
+[v powf@yisint yisint `l  1 a 4 80 ]
+"55
+[v powf@r r `f  1 a 4 76 ]
+[v powf@w w `f  1 a 4 68 ]
+"56
+[v powf@i i `l  1 a 4 44 ]
+"55
+[v powf@y1 y1 `f  1 a 4 40 ]
+"54
+[v powf@z_l z_l `f  1 a 4 36 ]
+[v powf@z_h z_h `f  1 a 4 32 ]
+"55
+[v powf@t2 t2 `f  1 a 4 28 ]
+"52
+[v powf@x x `f  1 p 4 96 ]
+[v powf@y y `f  1 p 4 100 ]
+"266
+} 0
+"24 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sqrtf.c
+[v _sqrtf sqrtf `(f  1 e 4 0 ]
+{
+"28
+[v sqrtf@ix ix `l  1 a 4 36 ]
+"29
+[v sqrtf@r r `ul  1 a 4 32 ]
+"28
+[v sqrtf@m m `l  1 a 4 28 ]
+"26
+[v sqrtf@z z `f  1 a 4 24 ]
+"28
+[v sqrtf@t t `l  1 a 4 20 ]
+[v sqrtf@q q `l  1 a 4 16 ]
+[u S538 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
+"31
+[v sqrtf@__xc8_float_word __xc8_float_word `S538  1 a 4 12 ]
+"28
+[v sqrtf@i i `l  1 a 4 8 ]
+[v sqrtf@s s `l  1 a 4 4 ]
+"24
+[v sqrtf@x x `f  1 p 4 87 ]
+"97
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\nanf.c
+[v _nanf nanf `(f  1 e 4 0 ]
+{
+[u S538 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
+"7
+[v nanf@u u `S538  1 a 4 5 ]
+"4
+[v nanf@s s `*.32Cuc  1 p 2 1 ]
+"13
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+{
+[v ___flge@ff1 ff1 `d  1 p 4 75 ]
+[v ___flge@ff2 ff2 `d  1 p 4 79 ]
+"19
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\scalbnf.c
+[v _scalbnf scalbnf `(f  1 e 4 0 ]
+{
+"7
+[v scalbnf@y y `f  1 a 4 56 ]
+[u S538 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
+"6
+[v scalbnf@u u `S538  1 a 4 52 ]
+"4
+[v scalbnf@x x `f  1 p 4 42 ]
+[v scalbnf@n n `i  1 p 2 46 ]
+"31
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S403 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S408 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
+[u S411 . 4 `l 1 i 4 0 `d 1 f 4 0 `S403 1 fAsBytes 4 0 `S408 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S411  1 a 4 36 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 30 ]
+[s S479 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S482 . 2 `s 1 i 2 0 `us 1 n 2 0 `S479 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S482  1 a 2 40 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 35 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 34 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 29 ]
+"8
+[v ___flmul@b b `d  1 p 4 17 ]
+[v ___flmul@a a `d  1 p 4 21 ]
+"205
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fabsf.c
+[v _fabsf fabsf `(f  1 e 4 0 ]
+{
+[u S538 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
+"6
+[v fabsf@u u `S538  1 a 4 5 ]
+"4
+[v fabsf@x x `f  1 p 4 1 ]
+"5
+[v fabsf@F463 F463 `S538  1 s 4 F463 ]
+"9
+} 0
+"10 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 11 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 10 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 1 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 9 ]
+"44
+} 0
+"245 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcadd.c
+[v ___flsub __flsub `(d  1 e 4 0 ]
+{
+[v ___flsub@b b `d  1 p 4 42 ]
+[v ___flsub@a a `d  1 p 4 46 ]
+"250
+} 0
+"10
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 16 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 15 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 14 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 13 ]
+"10
+[v ___fladd@b b `d  1 p 4 1 ]
+[v ___fladd@a a `d  1 p 4 5 ]
+"237
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+{
+[v ___flneg@f1 f1 `d  1 p 4 1 ]
+"20
+} 0
+"11 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 69 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 62 ]
+"20
+[v ___fldiv@new_exp new_exp `s  1 a 2 67 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 74 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 73 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 66 ]
+"11
+[v ___fldiv@b b `d  1 p 4 50 ]
+[v ___fldiv@a a `d  1 p 4 54 ]
+"185
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 5 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 1 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 3 ]
+"53
+} 0
+"43 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 122 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 121 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 113 ]
+"70
+} 0
+"30 C:\Users\Dipanjan Saha\Desktop\git\pic18f452-temperature\temperature-lm35.X/uart.h
 [v _UART_SendChar UART_SendChar `(v  1 e 1 0 ]
 {
 [v UART_SendChar@data data `uc  1 a 1 wreg ]
 [v UART_SendChar@data data `uc  1 a 1 wreg ]
-"29
-[v UART_SendChar@data data `uc  1 a 1 0 ]
-"30
+[v UART_SendChar@data data `uc  1 a 1 1 ]
+"39
 } 0
-"15
+"18
 [v _UART_Init UART_Init `(v  1 e 1 0 ]
 {
-[v UART_Init@baudrate baudrate `i  1 p 2 13 ]
-"24
+[v UART_Init@baudrate baudrate `i  1 p 2 14 ]
+"27
 } 0
 "7 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\__lldiv.c
 [v ___lldiv __lldiv `(ul  1 e 4 0 ]
 {
 "10
-[v ___lldiv@quotient quotient `ul  1 a 4 8 ]
+[v ___lldiv@quotient quotient `ul  1 a 4 9 ]
 "11
-[v ___lldiv@counter counter `uc  1 a 1 12 ]
+[v ___lldiv@counter counter `uc  1 a 1 13 ]
 "7
-[v ___lldiv@dividend dividend `ul  1 p 4 0 ]
-[v ___lldiv@divisor divisor `ul  1 p 4 4 ]
+[v ___lldiv@dividend dividend `ul  1 p 4 1 ]
+[v ___lldiv@divisor divisor `ul  1 p 4 5 ]
 "30
+} 0
+"28 C:\Users\Dipanjan Saha\Desktop\git\pic18f452-temperature\temperature-lm35.X/adc.h
+[v _ADC_Read ADC_Read `(ui  1 e 2 0 ]
+{
+[v ADC_Read@channel channel `uc  1 a 1 wreg ]
+"41
+[v ADC_Read@retval retval `ui  1 a 2 6 ]
+"31
+[v ADC_Read@portval portval `uc  1 a 1 9 ]
+"28
+[v ADC_Read@channel channel `uc  1 a 1 wreg ]
+"31
+[v ADC_Read@channel channel `uc  1 a 1 8 ]
+"43
+} 0
+"12
+[v _ADC_Init ADC_Init `(v  1 e 1 0 ]
+{
+"26
+} 0
+"18 C:\Users\Dipanjan Saha\Desktop\git\pic18f452-temperature\temperature-lm35.X\newmain.c
+[v _my_low_priority_isr_routine my_low_priority_isr_routine `IIL(v  1 e 1 0 ]
+{
+"19
+} 0
+"21
+[v _my_high_priority_isr_routine my_high_priority_isr_routine `IIH(v  1 e 1 0 ]
+{
+"22
 } 0
