@@ -1,0 +1,79 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F452 ]
+[d frameptr 4065 ]
+"15 C:\Users\Dipanjan Saha\Desktop\git\pic18f452-temperature\temperature-lm35.X/uart.h
+[v _UART_Init UART_Init `(v  1 e 1 0 ]
+"27
+[v _UART_SendChar UART_SendChar `(v  1 e 1 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"18 C:\Users\Dipanjan Saha\Desktop\git\pic18f452-temperature\temperature-lm35.X\newmain.c
+[v _main main `(i  1 e 2 0 ]
+"1648 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic18f452.h
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"2712
+[v _RCSTA RCSTA `VEuc  1 e 1 @4011 ]
+"2936
+[v _TXSTA TXSTA `VEuc  1 e 1 @4012 ]
+"3204
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"3228
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"18 C:\Users\Dipanjan Saha\Desktop\git\pic18f452-temperature\temperature-lm35.X\newmain.c
+[v _main main `(i  1 e 2 0 ]
+{
+"29
+} 0
+"27 C:\Users\Dipanjan Saha\Desktop\git\pic18f452-temperature\temperature-lm35.X/uart.h
+[v _UART_SendChar UART_SendChar `(v  1 e 1 0 ]
+{
+[v UART_SendChar@data data `uc  1 a 1 wreg ]
+[v UART_SendChar@data data `uc  1 a 1 wreg ]
+"29
+[v UART_SendChar@data data `uc  1 a 1 0 ]
+"30
+} 0
+"15
+[v _UART_Init UART_Init `(v  1 e 1 0 ]
+{
+[v UART_Init@baudrate baudrate `i  1 p 2 13 ]
+"24
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 8 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 12 ]
+"7
+[v ___lldiv@dividend dividend `ul  1 p 4 0 ]
+[v ___lldiv@divisor divisor `ul  1 p 4 4 ]
+"30
+} 0
